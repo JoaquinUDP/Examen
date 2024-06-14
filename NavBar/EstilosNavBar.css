@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*Cuadro de la NavBar*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/*color de la barra*/
+.header{
+    background-color: #2C6969;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+/*le saca los puntos tipo lista a la nav*/
+.header .nav-links{
+    list-style: none;
+}
+
+/*Separacion de elementos de la barra*/
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+/*Al hacer hover al texto, se agranda*/
+.header .nav-links li:hover,
+.overlay .a:hover{
+    transform: scale(1.1);
+}
+
+
+/*Cambia el color del texto al hacer hover*/
+.header .nav-links li a:hover{
+    color: #ffbc0e;
+}
+
+/*Para que no aparesca la palabra menu*/
+.menu{
+    display: none;
+}
+
+
+/*Color del texto y font size*/
+.header .nav-links a{
+    font-size: 700;
+    color: #ffffff;
+}
+
+/*Propiedades del Boton*/
+.header .btn button,
+.header .menu button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #214E4E;
+    padding: 9px 25px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/*Propiedades del Boton en hover*/
+.header .btn button:hover,
+.header .menu button:hover{
+    background-color: #ffffff;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 800px){
+    .nav-links, .btn{
+        display: none;
+    }
+    .menu{
+        display: inherit;
+    }
+
+}
+
+/*Nav Hamburguesa o Movil*/
+.header a{
+    text-decoration: none;
+}
+
+/*Estilo del Overlay al apretar el menu*/
+.header .overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(100, 150, 150, .50);
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+
+.header .overlay .overlay-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header .overlay a{
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header .overlay a:hover,
+.header .overlay a:focus{
+    color: #ffbc0e;
+}
+
+
+.header .overlay .close{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 65px;
+}
+
+
+@media screen and (max-width:450px){
+    .header .overlay a{
+        font-size: 20px;
+    }
+
+    .header .overlay .close{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
