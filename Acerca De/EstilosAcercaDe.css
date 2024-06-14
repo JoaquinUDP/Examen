@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/*Frame que tiene toda la info*/
+.FrameGeneral{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.375px;
+}
+
+/*Frame de la foto con descripcion*/
+.FrameFoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Foto{
+    display: flex;
+    padding: 0px 32px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/*Cuadro con la info, se aplica a la parte de la foto y a la info general*/
+.CuadroDescriptivo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.EncabezadoDesc{
+    display: flex;
+    width: 412px;
+    height: 54px;
+    padding: 16px 8px 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.TextoDesc{
+    display: flex;
+    width: 412px;
+    height: 190px;
+    padding: 24px 8px 16px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Frame de toda la info*/
+.FrameInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/*Texto descriptivo sobre mi*/
+.TextoSobremi{
+    display: flex;
+    padding: 16px 16px 32px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Cuadro de Habilidades*/
+
+.CuadroHab{
+    width: 922px;
+    height: 520px;
+}
+
+
+
