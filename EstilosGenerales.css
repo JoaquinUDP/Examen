@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+/* Fonts Bold/H0 Titulo Home */
+h0{
+font-size: 96px;
+font-weight: 700;
+}
+
+/* Fonts Bajada Titulo Home */
+subtitulo{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+  /* Fonts Bold/H1 32 Titulos */
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 16px;
+}
+
+/* Fonts Regular/H2 28 Titulos, Subtemas H1 */
+h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/* Fonts Bold/H2 28 Titulos, Subtemas H1 */
+h2Bold{
+font-size: 28px;
+font-weight: 700;
+}
+
+
+
+/* Fonts Regular/H3 24 Titulos Subsecciones H2 */
+h3{
+    font-size: 24px;
+    font-weight: 400; 
+}
+
+/* Fonts Regular/H4 20 Titulos Subsecciones H3 */
+h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Fonts Regular/H5 18 Titulos Subsecciones H4 */
+h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Fonts Regular/H6 16 Titulos Subsecciones H5 */
+h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
