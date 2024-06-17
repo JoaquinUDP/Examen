@@ -1,0 +1,38 @@
+
+
+.FrameGrande{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 250px;
+}
+
+.Imagen{
+    display: flex;
+    padding: 0px 32px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.InfoContacto{
+    display: flex;
+    padding: 0px 32px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Info{
+    display: flex;
+    width: 548px;
+    height: 27px;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
