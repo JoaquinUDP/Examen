@@ -67,11 +67,20 @@
     gap: 10px;
 }
 
-/*Cuadro de Habilidades*/
-
-.CuadroHab{
+/*Container de los cuadros de Habilidades*/
+.CuadroCont{
+    display: flex;
     width: 922px;
     height: 520px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Cuadro de Habilidades*/
+.CuadroHab{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
