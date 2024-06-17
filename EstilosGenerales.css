@@ -42,7 +42,6 @@ font-weight: 700;
 }
 
 
-
 /* Fonts Regular/H3 24 Titulos Subsecciones H2 */
 h3{
     font-size: 24px;
@@ -67,7 +66,12 @@ h6{
     font-weight: 400;
 }
 
-
+/* Fonts Regular/Botones 16 */
+Boton{
+    color: var(--Texto-Secundario, #FFF);
+    font-size: 16px;
+    font-weight: 700;
+}
 
 
 
