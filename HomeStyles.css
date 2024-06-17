@@ -1,4 +1,11 @@
 
+.FrameGrande{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
 
 /*Primer frame, da la bienvenida*/
 .FrameBienvenida{
@@ -41,14 +48,14 @@
 
 /*Frame Acerca de Mi */
 
-.FrameAcerca{
+.FrameGeneral{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 64px;
 }
 
-.ImgAcerca{
+.ImgGeneral{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
