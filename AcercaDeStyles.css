@@ -71,9 +71,10 @@
 .CuadroCont{
     display: flex;
     width: 922px;
-    height: 520px;
-    justify-content: center;
     align-items: center;
+    align-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
 }
 
 /*Cuadro de Habilidades*/
