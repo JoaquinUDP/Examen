@@ -1,6 +1,6 @@
 // Función para cargar el navbar
 function cargarNavbar() {
-    fetch("navbar.html")
+    fetch("NavBar.html")
       .then((response) => response.text())
       .then((html) => {
         document.querySelector("header").innerHTML = html;
@@ -12,7 +12,7 @@ function cargarNavbar() {
           .split(".")[0];
   
         // Remover la clase active de todos los enlaces
-        document.querySelectorAll(".navbar ul li a").forEach((enlace) => {
+        document.querySelectorAll(".nav-links ul li a").forEach((enlace) => {
           enlace.classList.remove("active");
         });
   

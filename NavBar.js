@@ -1,8 +1,10 @@
-function openNav(){
-    document.getElementById("mobile-menu").style.width = "100%"
-}
+// Selección del elemento del menú desplegable
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+// Selección del elemento de la lista de enlaces de navegación
+const navLinks = document.querySelector('.nav-links');
 
-
-function closeNav(){
-    document.getElementById("mobile-menu").style.width = "0%"
-}
+// Evento de clic en el menú desplegable
+hamburgerMenu.addEventListener('click', () => {
+  // Alternar la clase 'active' en la lista de enlaces de navegación
+  navLinks.classList.toggle('active');
+});
