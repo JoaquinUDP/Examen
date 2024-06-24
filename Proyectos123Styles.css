@@ -67,7 +67,6 @@
     gap: 10px;
 }
 
-
 .imagen{
     display: flex;
     width: 887px;
@@ -76,3 +75,31 @@
     align-items: flex-start;
     gap: 10px;
 }
+
+.imagen1{
+    display: flex;
+    padding: 32px 16px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.imagen2{
+    display: flex;
+    padding: 0px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 64px;
+}
+
+.imagen3{
+    display: flex;
+    padding: 0px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 64px;
+}
+
+
+
+
+

@@ -42,8 +42,6 @@
 
 .titulo{
     display: flex;
-    width: 488px;
-    height: 128px;
     padding: 8px 0px 32px 0px;
     justify-content: center;
     align-items: center;

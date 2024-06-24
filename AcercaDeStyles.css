@@ -31,13 +31,12 @@
 }
 
 .EncabezadoDesc{
-    display: flex;
-    width: 412px;
-    height: 54px;
-    padding: 16px 8px 0px 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+display: flex;
+height: 54px;
+padding: 16px 8px 0px 8px;
+justify-content: center;
+align-items: center;
+gap: 10px;
 }
 
 
@@ -71,9 +70,9 @@
 .CuadroCont{
     display: flex;
     width: 922px;
-    align-items: center;
-    align-content: center;
-    gap: 64px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 40px;
     flex-wrap: wrap;
 }
 

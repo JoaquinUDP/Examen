@@ -9,6 +9,14 @@ body{
     line-height: normal;
 }
 
+/* Estilos para la imagen responsive*/
+img {
+    display: block;
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    max-width: 100%; /* Ajustar la imagen al ancho del contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
+}
+
 
 /* Fonts Bold/H0 Titulo Home */
 h0{
@@ -41,7 +49,6 @@ font-size: 28px;
 font-weight: 700;
 }
 
-
 /* Fonts Regular/H3 24 Titulos Subsecciones H2 */
 h3{
     font-size: 24px;
@@ -72,10 +79,6 @@ Boton{
     font-size: 16px;
     font-weight: 700;
 }
-
-
-
-
 
 
 
